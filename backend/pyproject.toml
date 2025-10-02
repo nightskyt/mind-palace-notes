@@ -1,0 +1,15 @@
+[project]
+name = "backend"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "aiosqlite>=0.21.0",
+    "black>=25.9.0",
+    "fastapi-cdn-host>=0.9.2",
+    "fastapi-users[sqlalchemy]>=14.0.1",
+    "fastapi[standard]>=0.118.0",
+    "ruff>=0.13.3",
+    "uvicorn>=0.37.0",
+]
